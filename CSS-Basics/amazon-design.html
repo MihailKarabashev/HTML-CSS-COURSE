@@ -1,6 +1,11 @@
 <style>
     a {
         color: rgb(0, 113, 113);
+        transition: color 0.15s;
+    }
+
+    a:hover {
+        color: #A75A34;
     }
 
     .stock-name {
@@ -23,6 +28,7 @@
         margin-right: 5px;
         border-radius: 15px;
         cursor: pointer;
+        transition: background-color 0.15s;
     }
 
     .buy-now-button {
@@ -33,6 +39,19 @@
         height: 30px;
         border-radius: 15px;
         cursor: pointer;
+        transition: background-color 0.15s, opacity 0.15s;
+    }
+
+    .add-to-card-button:hover {
+        background-color: #F3C101;
+    }
+
+    .buy-now-button:hover {
+        background-color: #F97D02;
+    }
+
+    button:active {
+        opacity: 0.3;
     }
 </style>
 
