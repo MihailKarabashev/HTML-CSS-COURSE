@@ -1,3 +1,9 @@
 .thumbnail {
     width: 300px;
+    display: block;
+}
+
+.searach-bar {
+    display: block;
+    margin-bottom: 12px;
 }

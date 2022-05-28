@@ -1,0 +1,31 @@
+input {
+    border-color: #CECECE;
+    color: #CECECE;
+    border-radius: 8px;
+    border-style: solid;
+    font-size: 16px;
+    border-width: 1px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+}
+
+.form-email {
+    display: block;
+    width: 335px;
+}
+
+.form-name {
+    width: 148px;
+}
+
+.sing-up-btn {
+    background-color: #4793DE;
+    color: white;
+    border: none;
+    width: 335px;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
