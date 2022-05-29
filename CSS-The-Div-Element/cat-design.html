@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Profile Picture</title>
+    <style>
+        p {
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .wrapper {
+            width: 200px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+
+        .profile-name {
+            font-size: 18px;
+            font-weight: bold;
+            padding-left: 8px;
+            margin-bottom: 4px;
+        }
+
+        .profile-friends {
+            margin-left: 8px;
+            margin-bottom: 12px;
+            color: rgb(100, 100, 100);
+        }
+
+        .add-friend-btn {
+            background-color: rgb(24, 119, 242);
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 18px;
+            margin-left: 8px;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="profile-picture" src="/cat.jpg" alt="profile picture">
+        <p class="profile-name">Oliver</p>
+        <p class="profile-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+</body>
+
+</html>
