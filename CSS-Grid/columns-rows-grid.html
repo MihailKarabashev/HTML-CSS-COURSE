@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .grid-column {
+            background-color: #F5B8C2;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid with 4 equal columns</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-column">col1</div>
+        <div class="grid-column">col2</div>
+        <div class="grid-column">col3</div>
+        <div class="grid-column">col4</div>
+
+        <div class="grid-column">col1</div>
+        <div class="grid-column">col2</div>
+        <div class="grid-column">col3</div>
+        <div class="grid-column">col4</div>
+    </div>
+</body>
+
+</html>
