@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .wrapper {
+            display: flex;
+            height: 50px;
+        }
+
+        .empty-container {
+            width: 100px;
+            background-color: lightpink;
+        }
+
+        .row {
+            background-color: lightblue;
+            width: 200px;
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .row2-inside {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="empty-container"></div>
+        <div class="row">
+            <div class="row1">row1</div>
+            <div class="row2">
+                <div class="row2-inside">row2</div>
+                <div class="row2-inside">row2</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
