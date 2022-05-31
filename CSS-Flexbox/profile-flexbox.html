@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+
+        .profile-info {
+            margin-right: 150px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            padding-bottom: 3px;
+        }
+
+        .nickname {
+            padding-bottom: 4px;
+        }
+
+        .nickname,
+        .category {
+            color: rgb(150, 150, 150);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .follow-btn {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="profile-picture" src="/images/cat.jpg" alt="">
+
+        <div class="profile-info">
+            <p class="name">oliver</p>
+            <p class="nickname">the cat</p>
+            <p class="category">Popular</p>
+        </div>
+
+        <button class="follow-btn">Follow</button>
+    </div>
+
+    <div class="wrapper">
+        <img class="profile-picture" src="/images/cat.jpg" alt="">
+
+        <div class="profile-info">
+            <p class="name">oliver</p>
+            <p class="nickname">the cat</p>
+            <p class="category">Popular</p>
+        </div>
+
+        <button class="follow-btn">Follow</button>
+    </div>
+
+    <div class="wrapper">
+        <img class="profile-picture" src="/images/cat.jpg" alt="">
+
+        <div class="profile-info">
+            <p class="name">oliver</p>
+            <p class="nickname">the cat</p>
+            <p class="category">Popular</p>
+        </div>
+
+        <button class="follow-btn">Follow</button>
+    </div>
+</body>
+
+</html>
