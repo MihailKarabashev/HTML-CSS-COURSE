@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .facebook-avatar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .facebook-image {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-right: 10px;
+        }
+
+        .facebook-username {
+            font-weight: bold;
+        }
+
+        .facebook-buttons {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .add-btn {
+            padding: 9px 15px;
+            background-color: blue;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 8px;
+            border: none;
+            margin-right: 10px;
+        }
+
+        .message-btn {
+            padding: 9px 15px;
+            background-color: rgb(225, 216, 216);
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="facebook-avatar">
+            <img class="facebook-image" src="/cat.jpg" alt="">
+            <div class="facebook-username">
+                Oliver Cat
+            </div>
+        </div>
+
+        <div class="facebook-buttons">
+            <button class="add-btn">
+                Add Friend
+            </button>
+
+            <button class="message-btn">
+                Message
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
